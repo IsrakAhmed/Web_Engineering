@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body {
+    background-image: url(../resources/background.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+.home {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+nav {
+    position: fixed;
+    top: 0;
+    display: flex;
+    padding: 10px 20px 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    background-color: whitesmoke;
+}
+
+nav p {
+    font-weight: bold;
+    color: red;
+    margin-left: 2rem;
+}
+
+nav ul{
+    margin-right: 5rem;
+}
+
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    margin: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-weight: bold;
+    color: red;
+}
+
+nav ul li a:hover {
+    color: darkcyan;
+}
+
+.nameNRole {
+    margin-left: 3%;
+    margin-top: 15%;
+    text-align: center;
+    width: 50%;
+}
+
+.nameNRole h1 {
+    font-size: 65px;
+    margin-bottom: 20px;
+}
+
+.nameNRole p {
+    line-height: 22px;
+    font-size: 20px;
+    color: rgb(255, 94, 0);
+    font-weight: bold;
+}
+
+.nameNRole a {
+    text-decoration: none;
+    display: inline-block;
+    margin: 30px 0;
+    background-color: gray;
+    padding: 10px;
+    font-weight: bold;
+    color: azure;
+}
+
+.nameNRole a:hover {
+    color: gray;
+    background-color: azure;
+}
+
+.pic {
+    position:initial;
+    float: right;
+    margin-right: 10rem;
+    margin-top: -20rem;
+}
+
+.pic img {
+    height: 400px;
+}
+
+.abt{
+    padding-bottom: 4rem;
+    margin-top: -5rem;
+}
+
+#about h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 31px;
+    color: rgb(255, 94, 0);
+    background-color:ghostwhite;
+}
+
+#about table{
+    font-weight: bold;
+    left: 27%;
+    font-size: 25px;
+    line-height: 80px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    margin-left: 25rem;
+}
+
+#about table #f1{
+    color: blueviolet;
+}
+
+#about table #f2{
+    color:darkgreen;
+}
+
+#about table #f1:hover{
+    color: cornflowerblue;
+}
+
+#about table #f2:hover{
+    color:mediumseagreen;
+}
+
+.skls{
+    padding-bottom: 4rem;
+}
+
+#skills h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 31px;
+    color: rgb(255, 94, 0);
+    background-color:ghostwhite;
+}
+
+#skills table{
+    font-weight: bold;
+    left: 27%;
+    font-size: 25px;
+    line-height: 80px;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    margin-left: 17rem;
+}
+
+#skills table #f1{
+    color: blueviolet;
+}
+
+#skills table #f2{
+    color:darkgreen;
+}
+
+#skills table #f1:hover{
+    color: cornflowerblue;
+}
+
+#skills table #f2:hover{
+    color:mediumseagreen;
+}
+
+.conme{
+    padding-bottom: 4rem;
+}
+
+#contact h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 31px;
+    color: rgb(255, 94, 0);
+    background-color:ghostwhite;
+}
+
+#contact form{
+    font-weight: bold;
+    font-size: 25px;
+    line-height: 80px;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    margin-left: 27rem;
+    margin-bottom: -3rem;
+}
+
+#contact form button{
+    font-size: 25px;
+    margin-left: 12rem;
+    background-color: rgb(255, 94, 0);
+    color: whitesmoke;
+    font-weight: bold;
+    padding: 5px;
+    margin-top: 3rem;
+}
+
+#contact form button:hover{
+    background-color: whitesmoke;
+    color: rgb(255, 94, 0);
+}
+
+#contact form label{
+    color: blueviolet;
+}
+
+#contact form label:hover{
+    color: cornflowerblue;
+}
+
+#contact form #inpName{
+    margin-left: 10rem;
+    padding: 5px;
+    padding-right: 80px;
+}
+
+#contact form #inpMail{
+    margin-left: 9.6rem;
+    padding: 5px;
+    padding-right: 80px;
+}
+
+.footer{
+    background-color: whitesmoke;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.footer .social a{
+    text-decoration: none;
+    padding: 10px;
+    margin-right: 1rem;
+}
+
+.footer .social a:hover{
+    background-color: rgb(255, 94, 0);
+    color: whitesmoke;
+    border-radius: 45%;
+}
